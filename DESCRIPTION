@@ -1,0 +1,17 @@
+Package: StatComp20034
+Type: Package
+Title: Computing MMA and JMA least-squares estimates for pure nested models.
+Version: 1.0
+Date: 2020-12-15
+Author: Luyao Wang
+Maintainer: Luyao Wang <wly5531@mail.ustc.edu.cn>
+Description: The package including functions computing the Mallows Model Average (MMA) least-squares estimates and Jackknife Model Average (JMA) least-squares estimates for pure nested candimate models.
+License: GPL (>= 2)
+Imports: Rcpp,quadprog,MASS
+LinkingTo: Rcpp
+Encoding: UTF-8
+RoxygenNote: 7.1.1
+Suggests: knitr,rmarkdown,bootstrap,boot,DAAG,Ball,RANN,energy,inline
+VignetteBuilder: knitr
+URL:https://github.com/WaANGly/StatComp20034
+BugReports:https://github.com/WaANGly/StatComp20034/issues
